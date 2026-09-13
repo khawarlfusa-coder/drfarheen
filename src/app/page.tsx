@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { InstagramIcon } from "@/components/Icons";
-import { MessageCircle, Sparkles } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 export default function Home() {
   return (
@@ -79,28 +79,16 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Action Buttons: Instagram & WhatsApp */}
-        <div className="flex flex-col sm:flex-row items-center gap-3 w-full max-w-xs sm:max-w-md pt-2">
-          {/* Instagram Button */}
+        {/* Action Button: Instagram Only */}
+        <div className="flex justify-center w-full max-w-xs sm:max-w-sm pt-2">
           <a
             href="https://instagram.com/drfarheenofficial"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:flex-1 py-3.5 px-5 rounded-full bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white font-semibold text-xs tracking-wide shadow-xl hover:opacity-95 active:scale-[0.98] transition-all flex items-center justify-center gap-2"
+            className="w-full py-3.5 px-6 rounded-full bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white font-semibold text-xs sm:text-sm tracking-wide shadow-xl hover:opacity-95 active:scale-[0.98] transition-all flex items-center justify-center gap-2.5"
           >
-            <InstagramIcon className="w-4 h-4" />
-            <span>@drfarheenofficial</span>
-          </a>
-
-          {/* WhatsApp Button */}
-          <a
-            href="https://wa.me/923126472854?text=Hello%20Dr.%20Farheen%20Official%20team,%20I%20would%20like%20to%20inquire%20about%20upcoming%20consultations."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full sm:flex-1 py-3.5 px-5 rounded-full bg-[#25D366] text-white font-semibold text-xs tracking-wide shadow-xl hover:brightness-105 active:scale-[0.98] transition-all flex items-center justify-center gap-2"
-          >
-            <MessageCircle className="w-4 h-4 fill-white" />
-            <span>+92 312 6472854</span>
+            <InstagramIcon className="w-4 h-4 sm:w-4.5 sm:h-4.5" />
+            <span>Follow @drfarheenofficial</span>
           </a>
         </div>
 
