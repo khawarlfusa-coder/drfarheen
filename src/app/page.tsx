@@ -31,17 +31,18 @@ export default function Home() {
       {/* Footer */}
       <Footer />
 
-      {/* Floating Concierge WhatsApp Button */}
-      <aside aria-label="WhatsApp Concierge" className="fixed bottom-6 right-6 z-40">
+      {/* Floating Concierge WhatsApp Button (Optimized for Mobile Touch) */}
+      <aside aria-label="WhatsApp Concierge" className="fixed bottom-5 right-4 sm:bottom-6 sm:right-6 z-40">
         <a
-          href="https://wa.me/?text=Hello%20Dr.%20Farheen%20Official%20team,%20I%20would%20like%20to%20inquire%20about%20upcoming%20consultations."
+          href="https://wa.me/923126472854?text=Hello%20Dr.%20Farheen%20Official%20team,%20I%20would%20like%20to%20inquire%20about%20upcoming%20consultations."
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 px-4 py-3 rounded-full bg-[#25D366] text-white shadow-2xl hover:scale-105 transition-all group font-sans-clean font-medium text-xs border border-white/20"
-          aria-label="Direct WhatsApp Concierge"
+          className="flex items-center gap-2 px-3.5 py-3 sm:px-4 sm:py-3.5 rounded-full bg-[#25D366] text-white shadow-2xl hover:brightness-105 active:scale-95 transition-all group font-sans-clean font-medium text-xs border border-white/30"
+          aria-label="Direct WhatsApp Concierge: +92 312 6472854"
         >
           <MessageCircle className="w-5 h-5 fill-white text-[#25D366]" />
-          <span className="hidden sm:inline">Inquire with Team</span>
+          <span className="hidden sm:inline font-semibold">WhatsApp: +92 312 6472854</span>
+          <span className="sm:hidden font-semibold">WhatsApp</span>
         </a>
       </aside>
     </main>
