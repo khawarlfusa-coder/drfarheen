@@ -13,13 +13,13 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="md:col-span-5 space-y-3.5 sm:space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-full bg-white/95 border border-[#d4af37] p-1 flex items-center justify-center shrink-0">
+              <div className="w-13 h-13 sm:w-14 sm:h-14 shrink-0 flex items-center justify-center drop-shadow-[0_2px_10px_rgba(212,175,55,0.3)]">
                 <Image
                   src="/images/logo.png"
                   alt="Dr. Farheen Crest"
-                  width={44}
-                  height={44}
-                  className="object-contain"
+                  width={56}
+                  height={56}
+                  className="object-contain w-full h-full"
                 />
               </div>
               <div>

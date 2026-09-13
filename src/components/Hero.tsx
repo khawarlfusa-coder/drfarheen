@@ -128,13 +128,13 @@ export default function Hero() {
                   <div className="absolute inset-0 bg-gradient-to-t from-[#04120b] via-transparent to-black/10 opacity-70" />
 
                   {/* Monogram Crest Floating Badge */}
-                  <div className="absolute top-3 left-3 p-1 sm:p-1.5 rounded-full bg-white/95 border border-[#d4af37] shadow-xl backdrop-blur-md">
+                  <div className="absolute top-3 left-3 w-10 h-10 sm:w-11 sm:h-11 drop-shadow-[0_2px_12px_rgba(212,175,55,0.4)]">
                     <Image
                       src="/images/logo.png"
                       alt="DF Crest"
-                      width={34}
-                      height={34}
-                      className="object-contain"
+                      width={44}
+                      height={44}
+                      className="object-contain w-full h-full"
                     />
                   </div>
 

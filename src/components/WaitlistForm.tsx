@@ -76,13 +76,13 @@ export default function WaitlistForm() {
           
           {/* Top Logo Watermark */}
           <div className="flex justify-center mb-4 sm:mb-6">
-            <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-white/95 border border-[#d4af37] flex items-center justify-center p-1.5 sm:p-2 shadow-xl">
+            <div className="w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center drop-shadow-[0_4px_16px_rgba(212,175,55,0.35)]">
               <Image
                 src="/images/logo.png"
                 alt="Dr. Farheen Logo"
-                width={56}
-                height={56}
-                className="object-contain"
+                width={80}
+                height={80}
+                className="object-contain w-full h-full"
               />
             </div>
           </div>

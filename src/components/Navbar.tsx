@@ -28,13 +28,13 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo & Brand */}
           <a href="#" className="flex items-center space-x-2.5 sm:space-x-3 group">
-            <div className="relative w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border border-[#d4af37]/50 bg-white/95 shadow-md group-hover:border-[#d4af37] transition-all flex items-center justify-center p-1 shrink-0">
+            <div className="relative w-11 h-11 sm:w-13 sm:h-13 shrink-0 flex items-center justify-center drop-shadow-[0_2px_10px_rgba(212,175,55,0.3)]">
               <Image
                 src="/images/logo.png"
                 alt="Dr. Farheen Crest"
-                width={48}
-                height={48}
-                className="object-contain"
+                width={52}
+                height={52}
+                className="object-contain w-full h-full"
                 priority
               />
             </div>

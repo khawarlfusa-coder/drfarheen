@@ -144,13 +144,13 @@ export default function DoctorProfile() {
 
               {/* Special Emphasis Card */}
               <div className="p-4 rounded-2xl bg-gradient-to-r from-[#113a2a] to-[#0a241a] border border-[#d4af37]/40 flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-white/95 shrink-0 flex items-center justify-center p-1.5 border border-[#d4af37]">
+                <div className="w-12 h-12 shrink-0 flex items-center justify-center drop-shadow-[0_2px_8px_rgba(212,175,55,0.3)]">
                   <Image
                     src="/images/logo.png"
                     alt="Dr. Farheen Monogram"
-                    width={40}
-                    height={40}
-                    className="object-contain"
+                    width={48}
+                    height={48}
+                    className="object-contain w-full h-full"
                   />
                 </div>
                 <div>

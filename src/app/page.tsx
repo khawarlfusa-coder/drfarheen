@@ -11,14 +11,14 @@ export default function Home() {
       <div className="absolute bottom-10 right-1/4 w-[250px] sm:w-[450px] h-[250px] sm:h-[450px] ambient-glow-gold pointer-events-none -z-10 blur-3xl opacity-35" />
 
       {/* Top Brand Monogram */}
-      <header className="flex flex-col items-center text-center space-y-2.5 pt-2">
-        <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-white/95 border-2 border-[#d4af37] shadow-xl p-1.5 flex items-center justify-center">
+      <header className="flex flex-col items-center text-center space-y-2 pt-2">
+        <div className="relative w-20 h-20 sm:w-24 sm:h-24 flex items-center justify-center drop-shadow-[0_4px_20px_rgba(212,175,55,0.25)]">
           <Image
             src="/images/logo.png"
             alt="Dr. Farheen Crest"
-            width={56}
-            height={56}
-            className="object-contain"
+            width={96}
+            height={96}
+            className="object-contain w-full h-full"
             priority
           />
         </div>
