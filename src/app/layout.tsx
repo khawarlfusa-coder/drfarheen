@@ -57,8 +57,16 @@ export const metadata: Metadata = {
     images: ["/images/dr-farheen.png"],
   },
   icons: {
-    icon: "/images/logo.png",
-    apple: "/images/logo.png",
+    icon: [
+      { url: "/images/logo.png", type: "image/png" },
+      { url: "/icon.png", type: "image/png" },
+      { url: "/favicon.ico" },
+    ],
+    shortcut: ["/images/logo.png"],
+    apple: [
+      { url: "/images/logo.png" },
+      { url: "/apple-icon.png" },
+    ],
   },
 };
 
