@@ -16,19 +16,20 @@ const jakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://drfarheenofficial.com"),
-  title: "Dr. Farheen Official | UK NHS GP, Hormone & Menopause Specialist",
+  title: "Dr. Farheen Official | UK NHS GP (17 Years Experience) • Hormones, Weight & Longevity",
   description:
-    "Your doctor for the questions you're too shy to ask. Launching soon — bespoke private clinic for women's hormonal vitality, perimenopause, and medical weight management by Dr. Farheen Kayani (MBBS, MRCGP, DFSRH).",
+    "Dr. Farheen Kayani is a Pakistan-born, UK-based GP with 17 years of NHS experience. Specializing in hormonal health, weight management, longevity, disease prevention, and culturally relevant health education for South Asian communities.",
   keywords: [
     "Dr Farheen",
     "Dr Farheen Official",
     "Dr Farheen Kayani",
+    "17 Years NHS GP",
     "Menopause Specialist UK",
-    "Hormone Clinic London",
-    "NHS GP Private Clinic",
+    "Hormone & Longevity Clinic",
+    "South Asian Health Advocate",
     "Medical Weight Loss",
-    "HRT Doctor",
-    "Women's Health UK",
+    "Thinking Beyond Medicine",
+    "Disease Prevention",
   ],
   authors: [{ name: "Dr. Farheen Kayani" }],
   openGraph: {

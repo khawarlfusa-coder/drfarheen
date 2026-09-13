@@ -32,8 +32,8 @@ export default function Footer() {
               </div>
             </div>
 
-            <p className="text-xs text-[#f7f5f0]/70 max-w-sm leading-relaxed font-light">
-              Your doctor for the questions you&apos;re too shy to ask. Private boutique consultations in women&apos;s hormonal longevity, menopause, metabolic wellness, and discreet whole-body health.
+            <p className="text-xs text-[#f7f5f0]/75 max-w-sm leading-relaxed font-light">
+              Pakistan-born, UK-based GP with 17 years of NHS clinical experience. Thinking beyond medicine to provide transformative care in hormonal vitality, medical weight management, longevity, and culturally relevant health education.
             </p>
 
             <div className="flex items-center gap-3 pt-2">

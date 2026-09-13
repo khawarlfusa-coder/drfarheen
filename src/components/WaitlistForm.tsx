@@ -159,11 +159,11 @@ export default function WaitlistForm() {
                     onChange={(e) => setInterest(e.target.value)}
                     className="w-full px-4 py-3.5 rounded-xl bg-[#061912] border border-[#d4af37]/30 text-[#f7f5f0] focus:outline-none focus:border-[#d4af37] focus:ring-1 focus:ring-[#d4af37] transition-all text-sm cursor-pointer"
                   >
-                    <option value="Menopause & HRT Protocol">Menopause &amp; Perimenopause (HRT Protocol)</option>
-                    <option value="Hormonal Imbalance (PCOS / Thyroid)">Hormonal Imbalance (PCOS / Thyroid / Cycle)</option>
+                    <option value="Hormonal Health & Menopause">Hormonal Health &amp; Menopause (HRT Protocol)</option>
+                    <option value="Longevity & Disease Prevention">Longevity, Preventative Screening &amp; Biomarkers</option>
                     <option value="Medical Weight Management">Medical Weight Management &amp; Metabolic Health</option>
-                    <option value="Confidential Consultation">The Confidential &ldquo;Too Shy to Ask&rdquo; Clinic</option>
-                    <option value="Comprehensive Health Assessment">Comprehensive Women&apos;s Health MOT</option>
+                    <option value="Too Shy to Ask Consultation">Discreet &ldquo;Too Shy to Ask&rdquo; Private Session</option>
+                    <option value="South Asian Women Health MOT">South Asian Women&apos;s Comprehensive Health MOT</option>
                   </select>
                 </div>
 

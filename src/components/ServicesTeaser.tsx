@@ -1,57 +1,57 @@
-import { Sparkles, Moon, Flame, Scale, Shield, Check } from "lucide-react";
+import { Sparkles, Moon, Activity, Scale, Shield, Check } from "lucide-react";
 
 export default function ServicesTeaser() {
   const pillars = [
     {
       icon: Moon,
-      tag: "Specialty Pillar 01",
-      title: "Menopause & Perimenopause Mastery",
-      subtitle: "Reclaim Vitality, Deep Sleep & Mental Clarity",
-      desc: "Comprehensive evaluation of hormonal shifts from early 30s through post-menopause. Tailored body-identical HRT, non-hormonal alternatives, and symptom reversal.",
+      tag: "Clinical Pillar 01",
+      title: "Hormonal Health & Menopause",
+      subtitle: "HRT Optimization & Endocrine Harmony",
+      desc: "Moving beyond one-size-fits-all treatments. Thorough evaluation of hormonal shifts from early 30s through post-menopause, addressing brain fog, sleep loss, and vitality.",
       points: [
-        "Body-identical HRT & Progesterone optimization",
-        "Eradicating brain fog, anxiety, and hot flushes",
-        "Bone density & cardiovascular preventative care",
-        "Sleep architecture & nighttime temperature regulation",
+        "Body-identical HRT & micronised progesterone protocols",
+        "Perimenopause symptom mapping & relief",
+        "PCOS, thyroid & cycle regularization",
+        "Cognitive clarity, mood & sleep restoration",
       ],
     },
     {
-      icon: Flame,
-      tag: "Specialty Pillar 02",
-      title: "Hormone & Endocrine Rebalancing",
-      subtitle: "PCOS, Thyroid & Cycle Harmonization",
-      desc: "Hormones do not operate in silos. We analyze your complete endocrine symphony—from insulin to cortisol, thyroid to sex steroids—to restore your natural rhythm.",
+      icon: Activity,
+      tag: "Clinical Pillar 02",
+      title: "Longevity & Disease Prevention",
+      subtitle: "Thinking Beyond Medicine",
+      desc: "Healthcare should not begin after disease develops. Dr. Farheen applies 17 years of frontline NHS insight to identify upstream cardiometabolic and genetic risks early.",
       points: [
-        "PCOS phenotype diagnosis & holistic reversal",
-        "Subclinical hypothyroidism & Hashimoto's support",
-        "Cortisol rhythm & adrenal stress management",
-        "Painful cycles, PMS & PMDD relief",
+        "Cardiometabolic screening for high-risk profiles",
+        "Proactive bone density & vascular health preservation",
+        "Root-cause biomarker evaluation & cellular health",
+        "Lifestyle & nutritional medicine for healthspan extension",
       ],
     },
     {
       icon: Scale,
-      tag: "Specialty Pillar 03",
-      title: "Doctor-Led Medical Weight Loss",
-      subtitle: "Science-Backed Metabolic Transformation",
-      desc: "When diet and exercise stop working because hormones have taken the wheel. A medical, compassionate approach that treats underlying biology instead of placing blame.",
+      tag: "Clinical Pillar 03",
+      title: "Medical Weight Management",
+      subtitle: "Doctor-Guided Metabolic Transformation",
+      desc: "When conventional diet and exercise fail because shifting hormones dictate metabolism. An empathetic, science-first approach tailored to female biology.",
       points: [
-        "Metabolic health & insulin sensitivity restoration",
-        "Evidence-based medical weight loss management",
-        "Preserving lean muscle mass & hormonal balance",
-        "Sustainable lifelong nutrition without deprivation",
+        "Insulin sensitivity & metabolic slowdown reversal",
+        "Evidence-backed clinical weight interventions",
+        "Sustainable dietary strategies without starvation",
+        "Protecting lean muscle & bone integrity",
       ],
     },
     {
       icon: Shield,
-      tag: "Specialty Pillar 04",
-      title: "The \"Too Shy to Ask\" Sanctuary",
-      subtitle: "Zero Judgment. Absolute Discretion.",
-      desc: "A dedicated confidential haven for questions women often feel dismissed, embarrassed, or culturally hesitant to raise in standard 10-minute appointments.",
+      tag: "Clinical Pillar 04",
+      title: "Culturally Relevant & Discreet Care",
+      subtitle: "Your Doctor for Questions You're Too Shy to Ask",
+      desc: "A culturally attuned, zero-judgment sanctuary designed especially for South Asian women and communities often excluded by language barriers or cultural stigma.",
       points: [
-        "Intimate wellness, GSM & sexual comfort",
-        "Libido changes & relationship intimacy restoration",
-        "Urinary urgency & pelvic floor symptom management",
-        "Culturally attuned care for South Asian women",
+        "Zero-judgment discussions on intimate wellness & GSM",
+        "Culturally tailored guidance for South Asian diets & lifestyles",
+        "Addressing generational taboos around female health",
+        "Unrushed, confidential private consultations",
       ],
     },
   ];
@@ -67,14 +67,13 @@ export default function ServicesTeaser() {
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#0e3627] border border-[#d4af37]/30 text-xs font-semibold text-[#f5e4a8] tracking-widest uppercase font-sans-clean">
             <Sparkles className="w-3.5 h-3.5 text-[#d4af37]" />
-            Upcoming Clinical Offerings
+            Specialized Clinical Focus
           </div>
           <h2 className="font-serif-luxury text-3xl sm:text-4xl md:text-5xl font-bold text-[#f7f5f0]">
             Four Pillars of Bespoke Care
           </h2>
-          <p className="font-sans-clean text-[#f7f5f0]/75 text-base max-w-2xl mx-auto font-light">
-            Every woman&apos;s biochemical fingerprint is distinct. Our clinical protocols are tailored to your 
-            unique labs, symptoms, and life aspirations.
+          <p className="font-sans-clean text-[#f7f5f0]/80 text-base max-w-2xl mx-auto font-light">
+            Rooted in 17 years of clinical rigour and a deep commitment to preventive, culturally intelligent healthcare.
           </p>
         </div>
 

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Countdown from "./Countdown";
-import { Sparkles, ShieldCheck, HeartPulse, Award, ArrowRight } from "lucide-react";
+import { Sparkles, ShieldCheck, HeartPulse, Award, ArrowRight, Activity } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -17,11 +17,11 @@ export default function Hero() {
           {/* Left Column: Headlines & Call to Action */}
           <div className="lg:col-span-7 flex flex-col items-center lg:items-start text-center lg:text-left space-y-6">
             
-            {/* Top Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#0d3325]/80 border border-[#d4af37]/40 shadow-inner">
+            {/* Top Heritage & Clinical Experience Badge */}
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#0d3325]/90 border border-[#d4af37]/40 shadow-inner">
               <Sparkles className="w-3.5 h-3.5 text-[#d4af37] animate-spin" style={{ animationDuration: "6s" }} />
               <span className="text-[11px] sm:text-xs font-medium tracking-wider text-[#f5e4a8] uppercase font-sans-clean">
-                Official Digital Launch • Spring 2026
+                17 Years NHS GP Experience • Thinking Beyond Medicine
               </span>
             </div>
 
@@ -34,32 +34,30 @@ export default function Hero() {
               to ask.
             </h1>
 
-            {/* Subtitle / Bio summary */}
-            <p className="font-sans-clean text-base sm:text-lg text-[#f7f5f0]/80 max-w-2xl font-light leading-relaxed">
-              Led by <strong className="text-[#f5e4a8] font-medium">Dr. Farheen Kayani</strong>{" "}
-              <span className="text-xs px-2 py-0.5 rounded bg-[#103b2b] border border-[#d4af37]/30 text-[#d4af37] inline-block ml-1">
-                MBBS • MRCGP • DFSRH
-              </span>
-              . Senior UK NHS GP, Menopause &amp; Hormone Specialist, and Medical Weight Loss Expert. 
-              Delivering high-end, discreet, and evidence-based private care with zero judgment.
+            {/* Official Bio Subtitle */}
+            <p className="font-sans-clean text-base sm:text-lg text-[#f7f5f0]/85 max-w-2xl font-light leading-relaxed">
+              Dr. Farheen Kayani is a <strong className="text-[#f5e4a8] font-medium">Pakistan-born, UK-based GP with 17 years of NHS experience</strong>, 
+              with special interests in <span className="text-[#d4af37]">hormonal health, weight management, longevity and disease prevention</span>. 
+              Passionate about caring for communities and thinking beyond medicine, she is now bringing her clinical expertise 
+              into the digital space — making health education accessible, relatable, and culturally relevant.
             </p>
 
             {/* Countdown Box */}
             <div className="w-full max-w-lg pt-2 pb-1">
               <div className="flex items-center justify-center lg:justify-start gap-2 text-xs text-[#f5e4a8]/80 font-sans-clean uppercase tracking-widest font-semibold">
                 <span className="w-2 h-2 rounded-full bg-[#d4af37] animate-ping" />
-                Private Consultations Unveiling In
+                Private Consultations &amp; Digital Clinic Unveiling In
               </div>
               <Countdown />
             </div>
 
-            {/* Quick Waitlist Action & WhatsApp */}
+            {/* Quick Waitlist Action & Social Handle */}
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full max-w-md pt-2">
               <a
                 href="#waitlist"
                 className="w-full sm:w-auto flex-1 px-8 py-4 rounded-full bg-gold-gradient text-[#05140e] font-semibold text-sm tracking-wide shadow-xl shadow-[#d4af37]/25 hover:shadow-2xl hover:scale-[1.02] transition-all flex items-center justify-center gap-2 group font-sans-clean"
               >
-                <span>Request VIP Early Access</span>
+                <span>Request VIP Priority Access</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
 
@@ -76,26 +74,26 @@ export default function Hero() {
             {/* Trust Badges Bar */}
             <div className="pt-6 border-t border-[#d4af37]/15 w-full grid grid-cols-3 gap-3 text-center sm:text-left">
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-2">
-                <ShieldCheck className="w-4 h-4 text-[#d4af37] shrink-0 mt-0.5" />
+                <Award className="w-4 h-4 text-[#d4af37] shrink-0 mt-0.5" />
                 <div>
-                  <div className="text-xs font-semibold text-[#f5e4a8]">100% Confidential</div>
-                  <div className="text-[10px] text-[#f7f5f0]/60">Complete Discretion</div>
+                  <div className="text-xs font-semibold text-[#f5e4a8]">17 Years NHS</div>
+                  <div className="text-[10px] text-[#f7f5f0]/60">Senior UK Practitioner</div>
                 </div>
               </div>
 
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-2">
-                <Award className="w-4 h-4 text-[#d4af37] shrink-0 mt-0.5" />
+                <Activity className="w-4 h-4 text-[#d4af37] shrink-0 mt-0.5" />
                 <div>
-                  <div className="text-xs font-semibold text-[#f5e4a8]">NHS GP Qualified</div>
-                  <div className="text-[10px] text-[#f7f5f0]/60">GMC Registered UK</div>
+                  <div className="text-xs font-semibold text-[#f5e4a8]">Longevity Care</div>
+                  <div className="text-[10px] text-[#f7f5f0]/60">Disease Prevention</div>
                 </div>
               </div>
 
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-2">
                 <HeartPulse className="w-4 h-4 text-[#d4af37] shrink-0 mt-0.5" />
                 <div>
-                  <div className="text-xs font-semibold text-[#f5e4a8]">No Judgment</div>
-                  <div className="text-[10px] text-[#f7f5f0]/60">Empathetic Care</div>
+                  <div className="text-xs font-semibold text-[#f5e4a8]">Culturally Relevant</div>
+                  <div className="text-[10px] text-[#f7f5f0]/60">South Asian Health</div>
                 </div>
               </div>
             </div>
@@ -118,7 +116,7 @@ export default function Hero() {
                 <div className="relative aspect-[4/5] w-full rounded-2xl overflow-hidden bg-[#071911]">
                   <Image
                     src="/images/dr-farheen.png"
-                    alt="Dr. Farheen Kayani - UK GP & Hormone Specialist"
+                    alt="Dr. Farheen Kayani - 17 Years NHS GP & Longevity Specialist"
                     fill
                     sizes="(max-width: 768px) 100vw, 420px"
                     className="object-cover object-top filter contrast-[1.03] hover:scale-105 transition-transform duration-700"
@@ -139,21 +137,21 @@ export default function Hero() {
                     />
                   </div>
 
-                  {/* NHS Flag & Location Tag */}
-                  <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-[#05140e]/90 border border-[#d4af37]/30 backdrop-blur-md text-[11px] font-medium text-[#f5e4a8] flex items-center gap-1.5 shadow-md">
+                  {/* NHS 17 Years Flag Tag */}
+                  <div className="absolute top-4 right-4 px-3 py-1.5 rounded-full bg-[#05140e]/90 border border-[#d4af37]/40 backdrop-blur-md text-[11px] font-medium text-[#f5e4a8] flex items-center gap-1.5 shadow-md">
                     <span>🇬🇧</span>
-                    <span>London, UK</span>
+                    <span>17 Yrs NHS GP</span>
                   </div>
 
                   {/* Floating Doctor Profile Card at Bottom of Photo */}
-                  <div className="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-[#05140e]/90 border border-[#d4af37]/40 backdrop-blur-md shadow-2xl">
+                  <div className="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-[#05140e]/95 border border-[#d4af37]/40 backdrop-blur-md shadow-2xl">
                     <div className="flex items-center justify-between">
                       <div>
                         <h3 className="font-serif-luxury text-lg font-bold text-[#f5e4a8] leading-tight">
                           Dr. Farheen Kayani
                         </h3>
                         <p className="text-[11px] text-[#d4af37] font-medium font-sans-clean mt-0.5">
-                          MBBS, MRCGP, DFSRH • UK GP
+                          MBBS, MRCGP, DFSRH • UK NHS GP
                         </p>
                       </div>
                       <div className="w-8 h-8 rounded-full bg-[#0d3325] border border-[#d4af37]/50 flex items-center justify-center text-xs text-[#d4af37]">
@@ -161,8 +159,8 @@ export default function Hero() {
                       </div>
                     </div>
                     <div className="mt-2 pt-2 border-t border-[#d4af37]/15 flex items-center justify-between text-[10px] text-[#f7f5f0]/70">
-                      <span>Hormones &amp; Menopause</span>
-                      <span className="text-[#d4af37] font-medium">• Weight Loss</span>
+                      <span>Longevity &amp; Hormones</span>
+                      <span className="text-[#d4af37] font-medium">• Disease Prevention</span>
                     </div>
                   </div>
 
@@ -176,8 +174,8 @@ export default function Hero() {
                   🌿
                 </div>
                 <div className="text-left">
-                  <div className="text-xs font-semibold text-[#f5e4a8]">Empathetic Medicine</div>
-                  <div className="text-[10px] text-[#f7f5f0]/60">Holistic &amp; Evidence-Based</div>
+                  <div className="text-xs font-semibold text-[#f5e4a8]">Thinking Beyond Medicine</div>
+                  <div className="text-[10px] text-[#f7f5f0]/60">Root-Cause Longevity &amp; Empathy</div>
                 </div>
               </div>
 
